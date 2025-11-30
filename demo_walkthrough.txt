@@ -1,0 +1,69 @@
+Demo Walkthrough Script for Smart Traffic Signal Controller (STSC)
+
+[Opening Scene: Project overview with system architecture diagram]
+
+Narrator: "Welcome to the Smart Traffic Signal Controller demonstration. This project implements a complete compute subsystem for intelligent traffic management using a pipelined RISC-V processor."
+
+[Show Phase 1: Architectural Design]
+
+1. ISA Specification
+   - Display isa_spec.pdf
+   - "Our custom RISC-V RV32I subset optimized for traffic control applications"
+
+2. Assembly Code
+   - Show traffic_logic.asm
+   - "Traffic control algorithm implemented in assembly for maximum efficiency"
+
+3. Instruction Trace
+   - Display instruction_trace.txt
+   - "Detailed execution trace showing processor behavior during traffic light cycles"
+
+[Show Phase 2: Processor Pipeline]
+
+4. Pipeline Design
+   - Display pipeline_layout.png
+   - "5-stage pipeline with hazard detection and forwarding"
+
+5. Verilog Implementation
+   - Show ex_stage.v
+   - "Execute stage implementation in hardware description language"
+
+6. Hazard Handling
+   - Display hazard_handling_report.pdf
+   - "Comprehensive analysis of pipeline hazards and resolution strategies"
+
+[Show Phase 3: Memory Hierarchy]
+
+7. Cache Simulator
+   - Run cache_simulator.py
+   - "Python-based cache simulation showing memory access patterns"
+
+8. Performance Analysis
+   - Display cache_trace_analysis.pdf
+   - "AMAT and hit rate analysis for different cache configurations"
+
+[Show Phase 4: I/O Strategy]
+
+9. I/O Comparison
+   - Display io_strategy_comparison.pdf
+   - "Evaluation of polling vs interrupt-driven I/O strategies"
+
+10. System Integration
+    - Show integration_summary.md
+    - "Complete system integration with sensors and actuators"
+
+[Show Final Results]
+
+11. Performance Metrics
+    - Display final_report.pdf
+    - "Key metrics: CPI = 1.3, AMAT = 5 cycles, I/O latency < 10ms"
+
+12. Live Demonstration
+    - Run integrated simulation
+    - "Real-time traffic control simulation with sensor inputs and light outputs"
+
+[Closing Scene]
+
+Narrator: "This project demonstrates a complete embedded system design from ISA specification to system integration, providing a foundation for intelligent traffic management solutions."
+
+[End with contact information and Q&A]

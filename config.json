@@ -1,0 +1,10 @@
+{
+    "cache_size": 4096,
+    "block_size": 32,
+    "associativity": 2,
+    "replacement_policy": "LRU",
+    "trace_file": "../../Phase1_Architectural_Design/instruction_trace.txt",
+    "memory_access_pattern": "traffic_control",
+    "simulation_cycles": 10000,
+    "output_file": "simulation_results.json"
+}
